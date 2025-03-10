@@ -1,15 +1,34 @@
-
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
 #include "AXI_Ultrasoon.h"
+#include "sleep.h"
 
-int main()
-{
+#define ULTRASOON_R_BASE 0x43c00000
+#define ULTRASOON_L_BASE 0x43c10000
+
+void read_ultrasoon_sensors(int *distance_R, int *distance_L) {
+    *distance_R = AXI_ULTRASOON_mReadReg(ULTRASOON_R_BASE, 0);
+    *distance_L = AXI_ULTRASOON_mReadReg(ULTRASOON_L_BASE, 0);
+}
+
+void print_distances(int distance_R, int distance_L) {
+    xil_printf("\rRight Sensor Distance: %i cm | Left Sensor Distance: %i cm    \n\r", distance_R, distance_L);
+    fflush(stdout); // Ensure the output is updated in place
+}
+
+int main() {
     init_platform();
+    xil_printf("Ultrasoon sensor gestart\n\r");
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
-    cleanup_platform();
+    int distance_R = 0;
+    int distance_L = 0;
+
+    while (1) {
+        read_ultrasoon_sensors(&distance_R, &distance_L);
+        print_distances(distance_R, distance_L);
+        sleep_A9(1);
+    }
+
     return 0;
 }

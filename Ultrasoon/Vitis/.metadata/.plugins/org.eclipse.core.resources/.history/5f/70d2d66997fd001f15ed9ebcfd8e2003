@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "AXI_Ultrasoon.h"
+#include "sleep.h"
+
+#define AXI_Ultrasoon_0 0x43C1_0000
+//HC_SR04_R 0x43c00000
+#define AXI_Ultrasoon_1 0x43C1_FFFF
+//HC_SR04_L 0x43c10000
+
+int main()
+{
+    init_platform();
+    unsigned int distance0;
+    unsigned int distance1;
+    print("Ultrasoon Test\n\r");
+
+    for(;;){
+    	sleep_A9(1);
+    	distance0 = ULTRASOON_mReadReg(XPAR_ULTRASOON_0_S00_AXI_BASEADDR,ULTRASOON_S00_AXI_SLV_REG2_OFFSET);
+    	distance1 = ULTRASOON_mReadReg(XPAR_ULTRASOON_1_S00_AXI_BASEADDR,ULTRASOON_S00_AXI_SLV_REG2_OFFSET);
+    	printf("Distance 1 = %d cm\n\r",distance0);
+    	printf("Distance 2 = %d cm\n\r",distance1);
+    	printf("\n\r");
+    }
+
+
+    cleanup_platform();
+    return 0;
+}

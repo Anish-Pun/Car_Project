@@ -24,3 +24,15 @@ bsp reload
 bsp config stdin "ps7_uart_0"
 bsp write
 platform generate -domains 
+platform generate -domains standalone_ps7_cortexa9_0 
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform clean
+platform generate
+platform clean
+platform generate
