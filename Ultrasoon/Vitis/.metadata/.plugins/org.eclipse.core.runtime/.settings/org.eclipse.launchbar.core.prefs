@@ -7,5 +7,6 @@ org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Defaul
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Default/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Default_1/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Default_2/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Emulation/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_ultrasoon_app-Emulation/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
