@@ -4039,3 +4039,877 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: 
 
 !ENTRY com.xilinx.sdk.utils 1 0 2025-03-10 12:30:06.167
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '48'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.326
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.330
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#55]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.332
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.347
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.349
+!MESSAGE XSCT Command: [version -server], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.352
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2024.1.0]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.352
+!MESSAGE XSCT Command: [version], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.352
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2024.1.0
+SW Build 0 on 2024-05-19-14:06:15
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.355
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.365
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.365
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.408
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.408
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.418
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.418
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.469
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.471
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.483
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.490
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.538
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.539
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.551
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.553
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.582
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.588
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.602
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.602
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.633
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.636
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.653
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.653
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.683
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.683
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level == 0}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.727
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.727
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.734
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.736
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.751
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.752
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.796
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:52.805
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.809
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.851
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.875
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.876
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.919
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.921
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.997
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:55.999
+!MESSAGE XSCT Command: [fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.390
+!MESSAGE XSCT command with result: [fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.543
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.564
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.564
+!MESSAGE XSCT Command: [loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.577
+!MESSAGE XSCT command with result: [loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_1]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.579
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.582
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.582
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.592
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.602
+!MESSAGE XSCT Command: [source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.605
+!MESSAGE XSCT command with result: [source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:58.605
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.301
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.304
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.318
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.320
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.348
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.351
+!MESSAGE XSCT Command: [dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.494
+!MESSAGE XSCT command with result: [dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.496
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.529
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.695
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.713
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.713
+!MESSAGE XSCT Command: [con], Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:36:59.760
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-55: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-10 12:36:59.762
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '49'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:10.996
+!MESSAGE XSCT Command: [disconnect tcfchan#55], Thread: Thread-3524
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:11.005
+!MESSAGE XSCT command with result: [disconnect tcfchan#55], Result: [null, ]. Thread: Thread-3524
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.008
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.013
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#56]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.023
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.043
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.043
+!MESSAGE XSCT Command: [version -server], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.051
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2024.1.0]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.051
+!MESSAGE XSCT Command: [version], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.052
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2024.1.0
+SW Build 0 on 2024-05-19-14:06:15
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.054
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.070
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.070
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.119
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.125
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.138
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.138
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.185
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.185
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.195
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.195
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.240
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.244
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.255
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.261
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.296
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.303
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.317
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.317
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.366
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.372
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.376
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.383
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.418
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.418
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level == 0}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.448
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.456
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.459
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.466
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.493
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.494
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.580
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:12.581
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.604
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.684
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.716
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-FTDI-TEST FT2232H 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.718
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.752
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.754
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.825
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:15.827
+!MESSAGE XSCT Command: [fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.188
+!MESSAGE XSCT command with result: [fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.304
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.341
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.345
+!MESSAGE XSCT Command: [loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.363
+!MESSAGE XSCT command with result: [loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_1]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.365
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.368
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.369
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.393
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.395
+!MESSAGE XSCT Command: [source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.401
+!MESSAGE XSCT command with result: [source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:18.402
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.127
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.129
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.148
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.149
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.166
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.168
+!MESSAGE XSCT Command: [dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.405
+!MESSAGE XSCT command with result: [dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.407
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.443
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.622
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.644
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.645
+!MESSAGE XSCT Command: [con], Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 12:37:19.681
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-80: Launching Debugger_ultrasoon_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-03-10 12:37:19.683
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '50'
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.099
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.152
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.184
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.229
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.276
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.315
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.324
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.324
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.325
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.325
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 12:50:12.325
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:50.979
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.004
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.046
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.100
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.143
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.173
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.175
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.176
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.177
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.178
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.180
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.181
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.182
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.184
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.186
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.187
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.188
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.189
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-03-10 14:49:51.190
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.712
+!MESSAGE XSCT Command: [disconnect tcfchan#52], Thread: Thread-3582
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.712
+!MESSAGE XSCT command with result: [disconnect tcfchan#52], Result: [{Format=channel "tcfchan#52" closed, Time=1741614618712, Code=1}, ]. Thread: Thread-3582
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.818
+!MESSAGE XSCT Command: [disconnect tcfchan#55], Thread: Thread-3585
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.819
+!MESSAGE XSCT command with result: [disconnect tcfchan#55], Result: [{Format=channel "tcfchan#55" closed, Time=1741614618819, Code=1}, ]. Thread: Thread-3585
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.925
+!MESSAGE XSCT Command: [disconnect tcfchan#56], Thread: Thread-3588
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-03-10 14:50:18.931
+!MESSAGE XSCT command with result: [disconnect tcfchan#56], Result: [null, ]. Thread: Thread-3588
