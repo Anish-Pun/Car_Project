@@ -13,7 +13,6 @@ void read_ultrasoon_sensors(int *distance_R, int *distance_L) {
 }
 
 void print_distances(int distance_R, int distance_L) {
-    // Use \r at the start and add extra spaces to clear the line
     xil_printf("\rRight Sensor Distance: %i cm | Left Sensor Distance: %i cm          ", distance_R, distance_L);
     fflush(stdout); // Force immediate output
 }
