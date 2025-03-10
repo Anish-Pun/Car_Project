@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Ultrasoon_APP_system</name>
+	<name>ultrasoon_app_system</name>
 	<comment></comment>
 	<projects>
-		<project>Ultrasoon_APP</project>
+		<project>ultrasoon_app</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

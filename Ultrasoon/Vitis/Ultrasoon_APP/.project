@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Ultrasoon_APP</name>
+	<name>ultrasoon_app</name>
 	<comment>Created by Vitis v2024.1</comment>
 	<projects>
-		<project>Ultrasoon</project>
+		<project>xsaUltrasoon</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

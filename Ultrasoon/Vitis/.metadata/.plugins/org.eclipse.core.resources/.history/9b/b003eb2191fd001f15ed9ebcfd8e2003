@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "AXI_Ultrasoon.h"
+#include "sleep.h"
+
+#define AXI_BASE_ADDR      XPAR_AXI_ULTRASOON_0_S00_AXI_BASEADDR
+
+#define TRIG0_REG          AXI_ULTRASOON_S00_AXI_SLV_REG0_OFFSET
+#define ECHO0_REG          AXI_ULTRASOON_S00_AXI_SLV_REG1_OFFSET
+#define TRIG1_REG          AXI_ULTRASOON_S00_AXI_SLV_REG2_OFFSET
+#define ECHO1_REG          AXI_ULTRASOON_S00_AXI_SLV_REG3_OFFSET
+
+#define SOUND_SPEED_CM_US  0.0343 / 2  // cm/µs
+
+u32 measure_distance(u32 trig_reg, u32 echo_reg) {
+    u32 start_time = 0, end_time = 0;
+
+    // Trigger pulse
+    AXI_ULTRASOON_mWriteReg(AXI_BASE_ADDR, trig_reg, 1);
+    usleep(10);  // 10 µs
+    AXI_ULTRASOON_mWriteReg(AXI_BASE_ADDR, trig_reg, 0);
+
+    // Wait for echo high
+    while (AXI_ULTRASOON_mReadReg(AXI_BASE_ADDR, echo_reg) == 0);
+    start_time = Xil_GetTime();
+
+    // Wait for echo low
+    while (AXI_ULTRASOON_mReadReg(AXI_BASE_ADDR, echo_reg) == 1);
+    end_time = Xil_GetTime();
+
+    // Duration in microseconds
+    u32 duration = end_time - start_time;
+
+    // Distance in cm = duration * sound_speed
+    return (u32)(duration * SOUND_SPEED_CM_US);
+}
+
+int main() {
+    init_platform();
+
+    xil_printf("Start Ultrasoon meting\n");
+
+    while (1) {
+        u32 afstand0 = measure_distance(TRIG0_REG, ECHO0_REG);
+        u32 afstand1 = measure_distance(TRIG1_REG, ECHO1_REG);
+
+        xil_printf("Afstand sensor 0: %d cm\n", afstand0);
+        xil_printf("Afstand sensor 1: %d cm\n", afstand1);
+
+        sleep(1);
+    }
+
+    cleanup_platform();
+    return 0;
+}

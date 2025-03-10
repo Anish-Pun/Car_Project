@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "AXI_Ultrasoon.h"
+
+#define AXI_ULTRASOON_BASEADDR 0x43C00000 // Adjust based on your design
+
+#define TRIGGER_REG AXI_ULTRASOON_S00_AXI_SLV_REG0_OFFSET
+#define ECHO0_REG   AXI_ULTRASOON_S00_AXI_SLV_REG1_OFFSET
+#define ECHO1_REG   AXI_ULTRASOON_S00_AXI_SLV_REG2_OFFSET
+
+// Microseconds to centimeters conversion (speed of sound / 2)
+#define TIME_TO_CM(time_us) ((time_us) * 0.0343f / 2.0f)
+
+int main()
+{
+    init_platform();
+    print("Ultrasoon test gestart\n\r");
+
+    while (1) {
+        // Trigger sonar
+        AXI_ULTRASOON_mWriteReg(AXI_ULTRASOON_BASEADDR, TRIGGER_REG, 1);
+        for (volatile int i = 0; i < 10000; i++); // Delay
+        AXI_ULTRASOON_mWriteReg(AXI_ULTRASOON_BASEADDR, TRIGGER_REG, 0);
+
+        // Wait for echo to be processed (depends on your hardware delay timing)
+        for (volatile int i = 0; i < 500000; i++);
+
+        // Read echo durations (in microseconds)
+        u32 echo_time_0 = AXI_ULTRASOON_mReadReg(AXI_ULTRASOON_BASEADDR, ECHO0_REG);
+        u32 echo_time_1 = AXI_ULTRASOON_mReadReg(AXI_ULTRASOON_BASEADDR, ECHO1_REG);
+
+        float distance0 = TIME_TO_CM(echo_time_0);
+        float distance1 = TIME_TO_CM(echo_time_1);
+
+        xil_printf("Afstand 0: %.2f cm | Tijd: %d us\n\r", distance0, echo_time_0);
+        xil_printf("Afstand 1: %.2f cm | Tijd: %d us\n\r", distance1, echo_time_1);
+
+        for (volatile int i = 0; i < 1000000; i++); // Small delay before next read
+    }
+
+    cleanup_platform();
+    return 0;
+}

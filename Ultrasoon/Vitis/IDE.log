@@ -1,126 +1,838 @@
-10:38:14 DEBUG : Logs will be stored at 'C:/Car/Car_Project/Ultrasoon/Vitis/IDE.log'.
-10:38:17 INFO  : Platform repository initialization has completed.
-10:38:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Car\Car_Project\Ultrasoon\Vitis\temp_xsdb_launch_script.tcl
-10:38:17 INFO  : Registering command handlers for Vitis TCF services
-10:38:17 ERROR : (XSDB Server)'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+10:08:41 DEBUG : Logs will be stored at 'C:/Car/Car_Project/Ultrasoon/Vitis/IDE.log'.
+10:08:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Car\Car_Project\Ultrasoon\Vitis\temp_xsdb_launch_script.tcl
+10:08:46 INFO  : Platform repository initialization has completed.
+10:08:46 INFO  : Registering command handlers for Vitis TCF services
+10:08:46 ERROR : (XSDB Server)'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
 operable program or batch file.
 
-10:38:17 ERROR : (XSDB Server)'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+10:08:46 ERROR : (XSDB Server)'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
 operable program or batch file.
 
-10:38:17 ERROR : (XSDB Server)'\gnuwin\bin\' is not recognized as an internal or external command,
+10:08:46 ERROR : (XSDB Server)'\gnuwin\bin\' is not recognized as an internal or external command,
 operable program or batch file.
 
-10:38:20 INFO  : XSCT server has started successfully.
-10:38:20 INFO  : Successfully done setting XSCT server connection channel  
-10:38:21 INFO  : plnx-install-location is set to ''
-10:38:21 INFO  : Successfully done setting workspace for the tool. 
-10:38:21 INFO  : Successfully done query RDI_DATADIR 
-10:38:58 INFO  : Result from executing command 'getProjects': Ultrasoon
-10:38:58 INFO  : Result from executing command 'getPlatforms': 
-10:38:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
-10:38:58 INFO  : Platform 'Ultrasoon' is added to custom repositories.
-10:39:06 INFO  : Platform 'Ultrasoon' is added to custom repositories.
-10:40:59 INFO  : Result from executing command 'getProjects': Ultrasoon
-10:40:59 INFO  : Result from executing command 'getPlatforms': Ultrasoon|C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon/export/Ultrasoon/Ultrasoon.xpfm
-10:40:59 INFO  : Checking for BSP changes to sync application flags for project 'Ultrasoon_APP'...
-10:41:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-10:41:13 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
-10:41:13 INFO  : 'jtag frequency' command is executed.
-10:41:13 INFO  : Context for 'APU' is selected.
-10:41:14 INFO  : System reset is completed.
-10:41:17 INFO  : 'after 3000' command is executed.
-10:41:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
-10:41:19 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/bitstream/Ultrasoon.bit"
-10:41:19 INFO  : Context for 'APU' is selected.
-10:41:19 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon/export/Ultrasoon/hw/Ultrasoon.xsa'.
-10:41:19 INFO  : 'configparams force-mem-access 1' command is executed.
-10:41:19 INFO  : Context for 'APU' is selected.
-10:41:19 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/psinit/ps7_init.tcl' is done.
-10:41:20 INFO  : 'ps7_init' command is executed.
-10:41:20 INFO  : 'ps7_post_config' command is executed.
-10:41:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-10:41:20 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/Debug/Ultrasoon_APP.elf' is downloaded to processor 'ps7_cortexa9_0'.
-10:41:20 INFO  : 'configparams force-mem-access 0' command is executed.
-10:41:20 INFO  : ----------------XSDB Script----------------
+10:08:48 INFO  : XSCT server has started successfully.
+10:08:48 INFO  : Successfully done setting XSCT server connection channel  
+10:08:48 INFO  : plnx-install-location is set to ''
+10:08:48 INFO  : Successfully done query RDI_DATADIR 
+10:08:48 INFO  : Successfully done setting workspace for the tool. 
+10:10:01 INFO  : Result from executing command 'getProjects': xsaUltrasoon
+10:10:01 INFO  : Result from executing command 'getPlatforms': 
+10:10:01 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:10:01 INFO  : Platform 'xsaUltrasoon' is added to custom repositories.
+10:10:10 INFO  : Platform 'xsaUltrasoon' is added to custom repositories.
+10:10:38 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:10:38 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;ultrasoon_app;ultrasoon_app_system;xsaUltrasoon
+10:10:38 WARN  : Failed to closehw "C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa"
+Reason: C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+10:10:38 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;ultrasoon_app;ultrasoon_app_system;xsaUltrasoon
+10:10:38 ERROR : Failed to openhw "C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa"
+Reason: C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+10:10:38 ERROR : Failed to update application flags from BSP for 'ultrasoon_app'. Reason: null
+java.lang.NullPointerException: null
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305) ~[com.xilinx.sdx.sw_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214) ~[com.xilinx.sdx.sw_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:64) ~[com.xilinx.sdx.sdk.core_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160) ~[com.xilinx.sdx.sdk.core_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78) [com.xilinx.sdx.sdk.core_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48) [com.xilinx.sdx.sdk.core_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91) [com.xilinx.sdk.managedbuilder_1.0.0.202404291623.jar:?]
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75) [com.xilinx.sdk.managedbuilder_1.0.0.202404291623.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459) [org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291) [org.eclipse.ui.ide_3.17.0.v20200217-1511.jar:?]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42) [org.eclipse.core.resources_3.13.700.v20200209-1624.jar:?]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.700.v20200106-1020.jar:?]
+10:10:39 ERROR : Failed to compute checksum of hardware specification file used by project 'ultrasoon_app'
+10:10:39 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;ultrasoon_app;ultrasoon_app_system;xsaUltrasoon
+10:10:39 ERROR : Failed to openhw "C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa"
+Reason: C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+10:10:39 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;ultrasoon_app;ultrasoon_app_system;xsaUltrasoon
+10:10:39 ERROR : Failed to openhw "C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa"
+Reason: C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+10:10:39 INFO  : Result from executing command 'getProjects': RemoteSystemsTempFiles;ultrasoon_app;ultrasoon_app_system;xsaUltrasoon
+10:10:39 ERROR : Failed to openhw "C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa"
+Reason: C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa is not available in the current workspace
+use 'getprojects' command to see list of available projects in current workspace
+10:11:51 INFO  : Result from executing command 'getProjects': xsaUltrasoon
+10:11:51 INFO  : Result from executing command 'getPlatforms': xsaUltrasoon|C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm
+10:12:11 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:23 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:12:23 INFO  : 'jtag frequency' command is executed.
+10:12:23 INFO  : Context for 'APU' is selected.
+10:12:23 INFO  : System reset is completed.
+10:12:26 INFO  : 'after 3000' command is executed.
+10:12:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:12:29 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:12:29 INFO  : Context for 'APU' is selected.
+10:12:29 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:12:29 INFO  : 'configparams force-mem-access 1' command is executed.
+10:12:29 INFO  : Context for 'APU' is selected.
+10:12:29 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:12:29 INFO  : 'ps7_init' command is executed.
+10:12:29 INFO  : 'ps7_post_config' command is executed.
+10:12:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:12:29 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:12:29 INFO  : 'configparams force-mem-access 0' command is executed.
+10:12:29 INFO  : ----------------XSDB Script----------------
 connect -url tcp:127.0.0.1:3121
 targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
 targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
-fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/bitstream/Ultrasoon.bit
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
 targets -set -nocase -filter {name =~"APU*"}
-loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon/export/Ultrasoon/hw/Ultrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
 configparams force-mem-access 1
 targets -set -nocase -filter {name =~"APU*"}
-source C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/psinit/ps7_init.tcl
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
 ps7_init
 ps7_post_config
 targets -set -nocase -filter {name =~ "*A9*#0"}
-dow C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/Debug/Ultrasoon_APP.elf
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
 configparams force-mem-access 0
 ----------------End of Script----------------
 
-10:41:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-10:41:20 INFO  : 'con' command is executed.
-10:41:20 INFO  : ----------------XSDB Script (After Launch)----------------
+10:12:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:12:29 INFO  : 'con' command is executed.
+10:12:29 INFO  : ----------------XSDB Script (After Launch)----------------
 targets -set -nocase -filter {name =~ "*A9*#0"}
 con
 ----------------End of Script----------------
 
-10:41:20 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\Ultrasoon_APP_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
-10:41:32 INFO  : Disconnected from the channel tcfchan#2.
-10:41:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-10:41:33 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
-10:41:33 ERROR : port closed
-10:41:33 INFO  : ----------------XSDB Script----------------
+10:12:29 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:12:42 INFO  : Disconnected from the channel tcfchan#3.
+10:12:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:43 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:12:43 ERROR : port closed
+10:12:43 INFO  : ----------------XSDB Script----------------
 connect -url tcp:127.0.0.1:3121
 ----------------End of Script----------------
 
-10:41:33 ERROR : port closed
-10:41:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-10:41:39 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
-10:41:39 INFO  : 'jtag frequency' command is executed.
-10:41:39 INFO  : Context for 'APU' is selected.
-10:41:39 INFO  : System reset is completed.
-10:41:42 INFO  : 'after 3000' command is executed.
-10:41:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
-10:41:44 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/bitstream/Ultrasoon.bit"
-10:41:44 INFO  : Context for 'APU' is selected.
-10:41:44 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon/export/Ultrasoon/hw/Ultrasoon.xsa'.
-10:41:44 INFO  : 'configparams force-mem-access 1' command is executed.
-10:41:44 INFO  : Context for 'APU' is selected.
-10:41:44 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/psinit/ps7_init.tcl' is done.
-10:41:45 INFO  : 'ps7_init' command is executed.
-10:41:45 INFO  : 'ps7_post_config' command is executed.
-10:41:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-10:41:45 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/Debug/Ultrasoon_APP.elf' is downloaded to processor 'ps7_cortexa9_0'.
-10:41:45 INFO  : 'configparams force-mem-access 0' command is executed.
-10:41:45 INFO  : ----------------XSDB Script----------------
+10:12:43 ERROR : port closed
+10:12:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:12:47 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:12:47 INFO  : 'jtag frequency' command is executed.
+10:12:47 INFO  : Context for 'APU' is selected.
+10:12:47 INFO  : System reset is completed.
+10:12:50 INFO  : 'after 3000' command is executed.
+10:12:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:12:52 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:12:52 INFO  : Context for 'APU' is selected.
+10:12:52 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:12:52 INFO  : 'configparams force-mem-access 1' command is executed.
+10:12:52 INFO  : Context for 'APU' is selected.
+10:12:52 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:12:52 INFO  : 'ps7_init' command is executed.
+10:12:52 INFO  : 'ps7_post_config' command is executed.
+10:12:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:12:53 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:12:53 INFO  : 'configparams force-mem-access 0' command is executed.
+10:12:53 INFO  : ----------------XSDB Script----------------
 connect -url tcp:127.0.0.1:3121
 targets -set -nocase -filter {name =~"APU*"}
 rst -system
 after 3000
 targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
-fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/bitstream/Ultrasoon.bit
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
 targets -set -nocase -filter {name =~"APU*"}
-loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon/export/Ultrasoon/hw/Ultrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
 configparams force-mem-access 1
 targets -set -nocase -filter {name =~"APU*"}
-source C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/_ide/psinit/ps7_init.tcl
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
 ps7_init
 ps7_post_config
 targets -set -nocase -filter {name =~ "*A9*#0"}
-dow C:/Car/Car_Project/Ultrasoon/Vitis/Ultrasoon_APP/Debug/Ultrasoon_APP.elf
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
 configparams force-mem-access 0
 ----------------End of Script----------------
 
-10:41:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
-10:41:45 INFO  : 'con' command is executed.
-10:41:45 INFO  : ----------------XSDB Script (After Launch)----------------
+10:12:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:12:53 INFO  : 'con' command is executed.
+10:12:53 INFO  : ----------------XSDB Script (After Launch)----------------
 targets -set -nocase -filter {name =~ "*A9*#0"}
 con
 ----------------End of Script----------------
 
-10:41:45 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\Ultrasoon_APP_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
-10:41:54 INFO  : Disconnected from the channel tcfchan#3.
+10:12:53 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:13:44 INFO  : Disconnected from the channel tcfchan#4.
+10:13:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:13:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:13:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:13:54 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:13:55 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:13:55 INFO  : 'jtag frequency' command is executed.
+10:13:55 INFO  : Context for 'APU' is selected.
+10:13:55 INFO  : System reset is completed.
+10:13:58 INFO  : 'after 3000' command is executed.
+10:13:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:14:00 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:14:00 INFO  : Context for 'APU' is selected.
+10:14:00 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:14:00 INFO  : 'configparams force-mem-access 1' command is executed.
+10:14:00 INFO  : Context for 'APU' is selected.
+10:14:00 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:14:00 INFO  : 'ps7_init' command is executed.
+10:14:00 INFO  : 'ps7_post_config' command is executed.
+10:14:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:14:01 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:14:01 INFO  : 'configparams force-mem-access 0' command is executed.
+10:14:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:14:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:14:01 INFO  : 'con' command is executed.
+10:14:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:14:01 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:21:02 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:22:44 INFO  : No changes in MSS file content so sources will not be generated.
+10:22:51 INFO  : Result from executing command 'getProjects': xsaUltrasoon
+10:22:51 INFO  : Result from executing command 'getPlatforms': xsaUltrasoon|C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm
+10:22:59 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:28:45 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:29:36 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:29:46 INFO  : Disconnected from the channel tcfchan#5.
+10:29:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:29:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:29:56 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:30:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:30:11 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:30:11 INFO  : 'jtag frequency' command is executed.
+10:30:11 INFO  : Context for 'APU' is selected.
+10:30:11 INFO  : System reset is completed.
+10:30:14 INFO  : 'after 3000' command is executed.
+10:30:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:30:17 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:30:17 INFO  : Context for 'APU' is selected.
+10:30:17 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:30:17 INFO  : 'configparams force-mem-access 1' command is executed.
+10:30:17 INFO  : Context for 'APU' is selected.
+10:30:17 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:30:17 INFO  : 'ps7_init' command is executed.
+10:30:17 INFO  : 'ps7_post_config' command is executed.
+10:30:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:30:17 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:30:17 INFO  : 'configparams force-mem-access 0' command is executed.
+10:30:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:30:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:30:17 INFO  : 'con' command is executed.
+10:30:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:30:17 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:30:25 INFO  : Disconnected from the channel tcfchan#8.
+10:30:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:30:26 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:30:26 INFO  : 'jtag frequency' command is executed.
+10:30:26 INFO  : Context for 'APU' is selected.
+10:30:26 INFO  : System reset is completed.
+10:30:29 INFO  : 'after 3000' command is executed.
+10:30:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:30:31 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:30:31 INFO  : Context for 'APU' is selected.
+10:30:31 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:30:31 INFO  : 'configparams force-mem-access 1' command is executed.
+10:30:31 INFO  : Context for 'APU' is selected.
+10:30:31 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:30:32 INFO  : 'ps7_init' command is executed.
+10:30:32 INFO  : 'ps7_post_config' command is executed.
+10:30:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:30:32 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:30:32 INFO  : 'configparams force-mem-access 0' command is executed.
+10:30:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:30:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:30:32 INFO  : 'con' command is executed.
+10:30:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:30:32 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:31:36 INFO  : Disconnected from the channel tcfchan#9.
+10:31:51 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:32:19 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:32:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:32:31 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:32:31 INFO  : 'jtag frequency' command is executed.
+10:32:31 INFO  : Context for 'APU' is selected.
+10:32:31 INFO  : System reset is completed.
+10:32:34 INFO  : 'after 3000' command is executed.
+10:32:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:32:36 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:32:36 INFO  : Context for 'APU' is selected.
+10:32:36 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:32:36 INFO  : 'configparams force-mem-access 1' command is executed.
+10:32:36 INFO  : Context for 'APU' is selected.
+10:32:36 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:32:37 INFO  : 'ps7_init' command is executed.
+10:32:37 INFO  : 'ps7_post_config' command is executed.
+10:32:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:37 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:32:37 INFO  : 'configparams force-mem-access 0' command is executed.
+10:32:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:32:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:32:37 INFO  : 'con' command is executed.
+10:32:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:32:37 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:32:42 INFO  : Disconnected from the channel tcfchan#10.
+10:32:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:32:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+10:32:53 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+10:32:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:32:56 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:32:56 INFO  : 'jtag frequency' command is executed.
+10:32:56 INFO  : Context for 'APU' is selected.
+10:32:56 INFO  : System reset is completed.
+10:32:59 INFO  : 'after 3000' command is executed.
+10:32:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:33:02 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:33:02 INFO  : Context for 'APU' is selected.
+10:33:02 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:33:02 INFO  : 'configparams force-mem-access 1' command is executed.
+10:33:02 INFO  : Context for 'APU' is selected.
+10:33:02 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:33:02 INFO  : 'ps7_init' command is executed.
+10:33:02 INFO  : 'ps7_post_config' command is executed.
+10:33:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:33:02 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:33:02 INFO  : 'configparams force-mem-access 0' command is executed.
+10:33:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:33:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:33:02 INFO  : 'con' command is executed.
+10:33:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:33:02 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:35:05 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:35:08 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:35:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:35:27 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:35:27 INFO  : 'jtag frequency' command is executed.
+10:35:27 INFO  : Context for 'APU' is selected.
+10:35:27 INFO  : System reset is completed.
+10:35:30 INFO  : 'after 3000' command is executed.
+10:35:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:35:33 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:35:33 INFO  : Context for 'APU' is selected.
+10:35:33 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:35:33 INFO  : 'configparams force-mem-access 1' command is executed.
+10:35:33 INFO  : Context for 'APU' is selected.
+10:35:33 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:35:33 INFO  : 'ps7_init' command is executed.
+10:35:33 INFO  : 'ps7_post_config' command is executed.
+10:35:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:35:33 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:35:33 INFO  : 'configparams force-mem-access 0' command is executed.
+10:35:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:35:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:35:34 INFO  : 'con' command is executed.
+10:35:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:35:34 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default_(1).tcl'
+10:35:44 INFO  : Disconnected from the channel tcfchan#11.
+10:35:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:35:45 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:35:45 INFO  : 'jtag frequency' command is executed.
+10:35:45 INFO  : Context for 'APU' is selected.
+10:35:45 INFO  : System reset is completed.
+10:35:48 INFO  : 'after 3000' command is executed.
+10:35:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:35:51 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:35:51 INFO  : Context for 'APU' is selected.
+10:35:51 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:35:51 INFO  : 'configparams force-mem-access 1' command is executed.
+10:35:51 INFO  : Context for 'APU' is selected.
+10:35:51 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:35:51 INFO  : 'ps7_init' command is executed.
+10:35:51 INFO  : 'ps7_post_config' command is executed.
+10:35:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:35:51 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:35:51 INFO  : 'configparams force-mem-access 0' command is executed.
+10:35:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:35:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:35:52 INFO  : 'con' command is executed.
+10:35:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:35:52 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default_(1).tcl'
+10:37:32 WARN  : channel "tcfchan#11" closed
+10:37:32 INFO  : Disconnected from the channel tcfchan#12.
+10:37:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:37:54 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:37:54 INFO  : 'jtag frequency' command is executed.
+10:37:54 INFO  : Context for 'APU' is selected.
+10:37:54 INFO  : System reset is completed.
+10:37:55 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:37:57 INFO  : 'after 3000' command is executed.
+10:37:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:37:59 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:37:59 INFO  : Context for 'APU' is selected.
+10:38:00 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:38:00 INFO  : 'configparams force-mem-access 1' command is executed.
+10:38:00 INFO  : Context for 'APU' is selected.
+10:38:00 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:38:00 INFO  : 'ps7_init' command is executed.
+10:38:00 INFO  : 'ps7_post_config' command is executed.
+10:38:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:00 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:38:00 INFO  : 'configparams force-mem-access 0' command is executed.
+10:38:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:38:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:00 INFO  : 'con' command is executed.
+10:38:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:38:00 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default_(1).tcl'
+10:38:17 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:38:21 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:38:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:33 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:38:33 INFO  : 'jtag frequency' command is executed.
+10:38:33 INFO  : Context for 'APU' is selected.
+10:38:33 INFO  : System reset is completed.
+10:38:36 INFO  : 'after 3000' command is executed.
+10:38:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:38:38 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:38:39 INFO  : Context for 'APU' is selected.
+10:38:39 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:38:39 INFO  : 'configparams force-mem-access 1' command is executed.
+10:38:39 INFO  : Context for 'APU' is selected.
+10:38:39 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:38:39 INFO  : 'ps7_init' command is executed.
+10:38:39 INFO  : 'ps7_post_config' command is executed.
+10:38:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:39 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:38:39 INFO  : 'configparams force-mem-access 0' command is executed.
+10:38:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:38:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:39 INFO  : 'con' command is executed.
+10:38:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:38:39 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:38:48 INFO  : Disconnected from the channel tcfchan#13.
+10:38:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:49 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:38:49 INFO  : 'jtag frequency' command is executed.
+10:38:49 INFO  : Context for 'APU' is selected.
+10:38:49 INFO  : System reset is completed.
+10:38:52 INFO  : 'after 3000' command is executed.
+10:38:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:38:54 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:38:54 INFO  : Context for 'APU' is selected.
+10:38:54 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:38:54 INFO  : 'configparams force-mem-access 1' command is executed.
+10:38:54 INFO  : Context for 'APU' is selected.
+10:38:54 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:38:55 INFO  : 'ps7_init' command is executed.
+10:38:55 INFO  : 'ps7_post_config' command is executed.
+10:38:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:55 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:38:55 INFO  : 'configparams force-mem-access 0' command is executed.
+10:38:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:38:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:38:55 INFO  : 'con' command is executed.
+10:38:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:38:55 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:39:06 INFO  : Disconnected from the channel tcfchan#15.
+10:39:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:07 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:39:07 INFO  : 'jtag frequency' command is executed.
+10:39:07 INFO  : Context for 'APU' is selected.
+10:39:07 INFO  : System reset is completed.
+10:39:10 INFO  : 'after 3000' command is executed.
+10:39:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:39:12 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:39:12 INFO  : Context for 'APU' is selected.
+10:39:12 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:39:12 INFO  : 'configparams force-mem-access 1' command is executed.
+10:39:12 INFO  : Context for 'APU' is selected.
+10:39:12 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:39:13 INFO  : 'ps7_init' command is executed.
+10:39:13 INFO  : 'ps7_post_config' command is executed.
+10:39:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:39:13 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:39:13 INFO  : 'configparams force-mem-access 0' command is executed.
+10:39:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:39:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:39:13 INFO  : 'con' command is executed.
+10:39:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:39:13 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:39:26 WARN  : channel "tcfchan#13" closed
+10:39:26 INFO  : Disconnected from the channel tcfchan#16.
+10:39:43 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:40:07 INFO  : Checking for BSP changes to sync application flags for project 'ultrasoon_app'...
+10:40:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:40:17 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:40:17 INFO  : 'jtag frequency' command is executed.
+10:40:17 INFO  : Context for 'APU' is selected.
+10:40:18 INFO  : System reset is completed.
+10:40:21 INFO  : 'after 3000' command is executed.
+10:40:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:40:23 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:40:23 INFO  : Context for 'APU' is selected.
+10:40:23 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:40:23 INFO  : 'configparams force-mem-access 1' command is executed.
+10:40:23 INFO  : Context for 'APU' is selected.
+10:40:23 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:40:23 INFO  : 'ps7_init' command is executed.
+10:40:23 INFO  : 'ps7_post_config' command is executed.
+10:40:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:40:23 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:40:23 INFO  : 'configparams force-mem-access 0' command is executed.
+10:40:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:40:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:40:24 INFO  : 'con' command is executed.
+10:40:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:40:24 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'
+10:40:41 INFO  : Disconnected from the channel tcfchan#17.
+10:40:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:40:42 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+10:40:42 INFO  : 'jtag frequency' command is executed.
+10:40:45 INFO  : Context for 'APU' is selected.
+10:40:45 INFO  : System reset is completed.
+10:40:48 INFO  : 'after 3000' command is executed.
+10:40:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+10:40:50 INFO  : Device configured successfully with "C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit"
+10:40:50 INFO  : Context for 'APU' is selected.
+10:40:50 INFO  : Hardware design and registers information is loaded from 'C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa'.
+10:40:50 INFO  : 'configparams force-mem-access 1' command is executed.
+10:40:50 INFO  : Context for 'APU' is selected.
+10:40:50 INFO  : Sourcing of 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl' is done.
+10:40:51 INFO  : 'ps7_init' command is executed.
+10:40:51 INFO  : 'ps7_post_config' command is executed.
+10:40:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:40:51 INFO  : The application 'C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:40:51 INFO  : 'configparams force-mem-access 0' command is executed.
+10:40:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}
+fpga -file C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/hw/xsaUltrasoon.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:40:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:40:51 INFO  : 'con' command is executed.
+10:40:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+10:40:51 INFO  : Launch script is exported to file 'C:\Car\Car_Project\Ultrasoon\Vitis\ultrasoon_app_system\_ide\scripts\debugger_ultrasoon_app-default.tcl'

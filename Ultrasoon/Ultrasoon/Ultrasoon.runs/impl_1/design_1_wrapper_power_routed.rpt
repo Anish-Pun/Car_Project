@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date             : Fri Mar  7 10:01:34 2025
+| Date             : Mon Mar 10 10:06:21 2025
 | Host             : 5CD322B2BW running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.514        |
+| Total On-Chip Power (W)  | 1.515        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.377        |
+| Dynamic (W)              | 1.378        |
 | Device Static (W)        | 0.137        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 67.5         |
@@ -60,12 +60,12 @@ Table of Contents
 |   LUT as Distributed RAM |    <0.001 |       24 |     17400 |            0.14 |
 |   LUT as Shift Register  |    <0.001 |       62 |     17400 |            0.36 |
 |   Others                 |     0.000 |      305 |       --- |             --- |
-| Signals                  |     0.003 |     3063 |       --- |             --- |
+| Signals                  |     0.003 |     3060 |       --- |             --- |
 | MMCM                     |     0.106 |        1 |         4 |           25.00 |
 | I/O                      |    <0.001 |        5 |       125 |            4.00 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
 | Static Power             |     0.137 |          |           |                 |
-| Total                    |     1.514 |          |           |                 |
+| Total                    |     1.515 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -155,7 +155,7 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     1.377 |
+| design_1_wrapper         |     1.378 |
 |   dbg_hub                |     0.004 |
 |     inst                 |     0.004 |
 |       BSCANID.u_xsdbm_id |     0.004 |
