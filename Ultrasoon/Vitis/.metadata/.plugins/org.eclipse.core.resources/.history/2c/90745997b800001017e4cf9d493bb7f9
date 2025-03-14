@@ -13,7 +13,11 @@ void read_ultrasoon_sensors(int *distance_R, int *distance_L) {
 }
 
 void print_distances(int distance_R, int distance_L) {
-    xil_printf("\rRight Sensor Distance: %i cm | Left Sensor Distance: %i cm  ", distance_R, distance_L);
+<<<<<<< HEAD
+    xil_printf("\rRight Sensor Distance: %i cm | Left Sensor Distance: %i cm   ", distance_R, distance_L);
+=======
+    xil_printf("\rRight Sensor Distance: %i cm | Left Sensor Distance: %i cm          ", distance_R, distance_L);
+>>>>>>> aa9a7d937dc93b3c01692be482589e2acb30c8e3
     fflush(stdout); // Force immediate output
 }
 

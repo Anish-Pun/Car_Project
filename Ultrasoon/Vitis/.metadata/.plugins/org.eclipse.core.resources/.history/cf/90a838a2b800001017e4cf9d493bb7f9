@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ultrasoon_app" location="C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app" platform="C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="ultrasoon_app_system" sysConfig="xsaUltrasoon" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="e25efca550da06aa164379d48c8e0ad1">
-  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.662196767" dirty="true">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.662196767">
     <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
     <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
   </configuration>

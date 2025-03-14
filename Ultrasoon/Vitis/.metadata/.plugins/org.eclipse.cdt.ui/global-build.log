@@ -1,11 +1,3 @@
-Nothing to build in platform 'xsaUltrasoon'
-
-10:36:23 **** Clean-only build of configuration Debug for project ultrasoon_app ****
-make clean 
-rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  ultrasoon_app.elf.size  ultrasoon_app.elf
-' '
-10:36:23 **** Incremental Build of configuration Debug for project ultrasoon_app ****
-make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
@@ -14,11 +6,6 @@ make --no-print-directory main-build
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/sw/xsaUltrasoon/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/sw/xsaUltrasoon/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
 ' '
 'Building target: ultrasoon_app.elf'
 'Invoking: ARM v7 gcc linker'
@@ -31,3 +18,25 @@ arm-none-eabi-size ultrasoon_app.elf  |tee "ultrasoon_app.elf.size"
   28033	   2184	  22640	  52857	   ce79	ultrasoon_app.elf
 'Finished building: ultrasoon_app.elf.size'
 ' '
+Nothing to build in platform 'xsaUltrasoon'
+
+10:42:15 **** Incremental Build of configuration Debug for project ultrasoon_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+10:42:15 **** Incremental Build of configuration Debug for project ultrasoon_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52633 C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm standalone_ps7_cortexa9_0 C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/system.bif
+'\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+'\gnuwin\bin\' is not recognized as an internal or external command,
+operable program or batch file.
+sdcard_gen --xpfm C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm --sys_config xsaUltrasoon --bif C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/system.bif --bitstream C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit --elf C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/Debug/ultrasoon_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
+Running C:/Xilinx/Vitis/2024.1/bin/bootgen  -image C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
