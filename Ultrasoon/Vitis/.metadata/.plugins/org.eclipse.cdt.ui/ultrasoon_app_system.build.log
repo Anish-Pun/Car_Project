@@ -1,7 +1,7 @@
-11:39:00 **** Build of configuration Debug for project ultrasoon_app_system ****
+10:14:08 **** Incremental Build of configuration Debug for project ultrasoon_app_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 61601 C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm standalone_ps7_cortexa9_0 C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/system.bif
+generate_system_bif.bat 49695 C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltrasoon/xsaUltrasoon.xpfm standalone_ps7_cortexa9_0 C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/system.bif
 '\gnu\microblaze\lin\bin\' is not recognized as an internal or external command,
 operable program or batch file.
 '\gnu\microblaze\nt\bin\' is not recognized as an internal or external command,
@@ -12,5 +12,5 @@ sdcard_gen --xpfm C:/Car/Car_Project/Ultrasoon/Vitis/xsaUltrasoon/export/xsaUltr
 creating BOOT.BIN using C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app/_ide/bitstream/xsaUltrasoon.bit
 Running C:/Xilinx/Vitis/2024.1/bin/bootgen  -image C:/Car/Car_Project/Ultrasoon/Vitis/ultrasoon_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
 
-11:39:06 Build Finished (took 5s.915ms)
+10:14:17 Build Finished (took 9s.252ms)
 
