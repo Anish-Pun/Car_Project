@@ -1,7 +1,8 @@
 # Car_Project
 
 ## Description
-This project involves building a robot using the PYNQ-Z2 board. The robot includes the following features:
+This project involves building a robot car using the PYNQ-Z2 board, JoyKit car chassis etc... 
+The robot includes the following features:
 - [Ultrasonic sensor for obstacle detection](Demo_Videos/Ultrasoon_DemoVideo.mp4)
 - Speed sensor and motor control
 - Inertial Measurement Unit (IMU)
